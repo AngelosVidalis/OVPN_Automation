@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd <ovpn file directory> || exit
+
+if sudo openvpn <ovpn file>; then
+    <options> | tee -a <file location>
+else
+    <options> | tee -a <file location>
+fi
+
