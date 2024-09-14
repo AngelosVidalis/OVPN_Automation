@@ -59,8 +59,8 @@ Post-Reboot Checks:
 
 Troubleshooting:
 
-  If you encounter this error: pam_unix(sudo:auth): conversation failed
-  Edit the PAM (Pluggable Authentication Module) configuration for sudo:
+  If you encounter this error: pam_unix(sudo:auth): conversation failed,
+  edit the PAM (Pluggable Authentication Module) configuration for sudo:
 
 
     sudo nano /etc/pam.d/sudo
