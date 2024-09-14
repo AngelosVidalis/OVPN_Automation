@@ -7,7 +7,7 @@ HOW TO ADD:
 3. nano file_name.sh [ edit file ]
 4. ctrl + shift + v the copied FILLED script -> ctrl + x -> Y -> Enter [ copy paste and save the changes ]
 5. crontab -e [ 
-6. Add "<run options> <script path> -> ctrl + x    
+6. Add "<options> <path> -> ctrl + x    
 [  [ @reboot to run everytime you boot or use this site https://crontab-generator.org/ ]
 REBOOT
 7. ifconfig [ check if the vpn is working ]
