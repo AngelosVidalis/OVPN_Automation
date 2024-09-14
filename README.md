@@ -54,9 +54,7 @@ Post-Reboot Checks:
    Look for the VPN interface in the output (e.g., tun0).
 
   2. Verify Cron Status: Check if the cron service executed the script successfully:
-
-bash
-
+     
     systemctl status cron
 
 Troubleshooting:
